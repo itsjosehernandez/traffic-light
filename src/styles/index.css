@@ -1,6 +1,5 @@
 
 /* 
-
     You can write your own styles here...
     
     
@@ -8,5 +7,74 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
+*/
+
+body {
+    height: 100vh;
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.traffic-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.traffic-pole {
+    height: 200px;
+    width: 15px;
+    background-color: black;
+    align-items: center;
+    margin: auto;
+}
+
+.light-container{
+    height: 200px;
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 10%;
+    gap: 10px;
+    padding-top: 25%;
+}
+
+.light{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+
+}
+
+.red{
+    background-color: red;
+    
+}
+
+.yellow{
+    background-color: yellow;
+    
+}
+
+.green{
+    background-color: green;
+    
+}
+
+.activeL {
+    box-shadow: 5px 5px 15px 40px rgba(250,208,99,0.75);
+}
+
+/*  Selected Light CSS Code 👇🏽👇🏽👇🏽
+
+box-shadow: 5px 5px 150px 40px rgba(250,208,99,0.75);
 
 */
